@@ -14,5 +14,5 @@ ball2.ballType     //=> "super"
 */
 
 var Ball = function(ballType) {
-  // your code goes here
+  this.ballType = ballType ? ballType : "regular";
 };
